@@ -33,8 +33,8 @@ let songs=[
     {songName: "Jeene Laga Hu", filePath:"songs/2.mp3", coverPath:"images/atif2.jpg"},
     {songName: "Kesariya", filePath:"songs/3.mp3", coverPath:"images/arijit3.jpg"},
     {songName: "Khamosiya", filePath:"songs/4.mp3", coverPath:"images/arijit4.jpg"},
-    {songName: "Main tenu samjhawa", filePath:"songs/5.mp3", coverPath:"images/arijit5.jpg"},
-    {songName: "Baatein ye kabhi na", filePath:"songs/6.mp3", coverPath:"images/arijit6.jpg"},
+    {songName: "Samjhawa", filePath:"songs/5.mp3", coverPath:"images/arijit5.jpg"},
+    {songName: "Baatein ye kabhi", filePath:"songs/6.mp3", coverPath:"images/arijit6.jpg"},
     {songName: "Dekhte dekhte", filePath:"songs/7.mp3", coverPath:"images/atif6.jpg"},
     {songName: "Paniyo sa", filePath:"songs/8.mp3", coverPath:"images/atif5.jpg"},
 ]

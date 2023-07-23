@@ -52,12 +52,13 @@ iframe{
 .main{
     display: flex;
     /* height: ; */
-    width: 100%;    
+    width: 100vw;  
+    height: 95.5vh;  
     margin: .7rem;
     /* margin-left: .7rem; */
     justify-content: center;
     align-items: center;
-    /* position: fixed; */
+    /* position: absolute; */
     
 }
 .main-content{
@@ -67,6 +68,8 @@ iframe{
     height: 100%;
     width: 100%;
     flex-direction: column;
+    overflow: hidden;
+    /* position: absolute; */
     /* margin: .5rem; */
 }
 .navbar{
@@ -374,15 +377,18 @@ body::-webkit-scrollbar{
     #slide-left, #slide-right, #artist-left,#artist-right{
         display: none;
     }
-    /* .searchbar{
+    .searchbar{
         display: none;
-    } */
-    .main{
-        height: 100vh;
     }
+    /* .main{
+        height: 100vh;
+    } */
     .songList{
         flex-direction: column;
         flex-wrap: nowrap;
+    }
+    .songItem{
+        width: 70%;
     }
     /* .angular{
         display: none;
@@ -596,8 +602,9 @@ body::-webkit-scrollbar{
 
 .bottom{
     display: flex;
-    position: sticky;
+    position: fixed;
     height: 80px;
+    width: 100%;
     justify-content: center;
     align-items: center;
     background-color: #0004;
@@ -631,7 +638,7 @@ body::-webkit-scrollbar{
 .songItem{
     height: 50px;
     display: flex;
-    width:350px;
+    width:45%;
     /* background-color: #fff; */
     color: bisque;
     margin: 12px 0;
