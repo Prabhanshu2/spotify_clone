@@ -648,7 +648,17 @@ body::-webkit-scrollbar{
     cursor: pointer;
     border-style: outset;
     border-color:black;
+    transition: 1s;
     /* border-color:saddlebrown; */
+}
+.songItem:hover{
+    transform: scale(.8);
+}
+.songItem:hover .songItemPlay{
+    background: #5C5C5C;
+    color: #E5E8E8;
+    border-radius: 50%;
+    transform: scale(1.8);
 }
 .songItem img{
     width:39px;
