@@ -609,7 +609,7 @@ body::-webkit-scrollbar{
     width: 100%;
     justify-content: center;
     align-items: center;
-    background-color: #0004;
+    /* background-color: #0004; */
     bottom:0;
     /* margin-bottom: 2rem; */
     color: #fff;
