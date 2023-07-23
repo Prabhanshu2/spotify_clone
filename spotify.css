@@ -54,11 +54,12 @@ iframe{
     /* height: ; */
     width: 100vw;  
     height: 95.5vh;  
-    margin: .7rem;
+    /* margin: .7rem; */
     /* margin-left: .7rem; */
     justify-content: center;
     align-items: center;
     /* position: absolute; */
+    margin-bottom: 4rem;
     
 }
 .main-content{
@@ -638,7 +639,7 @@ body::-webkit-scrollbar{
 .songItem{
     height: 50px;
     display: flex;
-    width:45%;
+    width:300px;
     /* background-color: #fff; */
     color: bisque;
     margin: 12px 0;
