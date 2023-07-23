@@ -388,9 +388,6 @@ body::-webkit-scrollbar{
         flex-direction: column;
         flex-wrap: nowrap;
     }
-    .songItem{
-        width: 70%;
-    }
     /* .angular{
         display: none;
     } */
